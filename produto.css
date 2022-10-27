@@ -1,0 +1,51 @@
+header {
+    background: #BBBBBB;
+}
+ 
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+ 
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a :hover {
+    color: rgb(127, 255, 206);
+    text-decoration: underline;
+    
+}
+
+.produtos{
+    width:  940x;
+    margin:  0 auto;
+    padding:  50px 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align:  center;
+    width:  30%;
+    vertical-align:  top;
+    margin: 0 1.5%;
+    padding: 30xp 20px;
+    box-sizing: border-box;
+    border: 2xp solid #000000;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.produtos-descrição {
+    font-size: 18px;
+
+}
+.produtos-preço{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
